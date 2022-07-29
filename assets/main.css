@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:wght@100&display=swap');
+html,body{
+    margin: 0px;
+    background-color: rgb(139 0 115 / 85%);
+    font-family: 'Roboto', sans-serif;
+    color :white;
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    position:sticky;
+
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: black;
+    color : white;
+}
+
+a{
+   
+    margin-left: 5px; 
+    padding: 10px;  
+    font-size: 20px;
+
+}
+a, :link{
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    
+    color:black;
+    background-color: white;
+    
+}
+
+p{
+    padding: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    word-spacing: 10px;
+    word-wrap: normal;
+}
+
+
+.content{
+   /*display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;*/
+    width: 100%;
+    height: 100vh;
+
+    
+
+}
+
+.section-one{
+    display: flex;
+    width: 100%;
+    height:100vh;
+    
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("/assets/img-home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.text-media{
+    
+    font-size: 15vh;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    
+}
+
+.title-section{
+    padding:10px;
+    margin:10px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+}
+
+.section-two{
+    
+    width: 100%;
+    
+    
+
+    /*display:flex;
+    
+
+    align-items: center;
+    justify-content: center;*/
+}
+.card-board{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.section-three{
+    
+    width: 100%;
+    height: 100vh;
+    
+ 
+
+}
+
+.card{
+    background: #1b0743a6;
+    
+    margin:10px;
+    color: rgb(255, 255, 255);
+    box-shadow:0px 4px 18px #4c13438f;
+    border-radius: 20px;
+    width: 300px;
+}
+.media-card{
+    width:100%;
+    height: 300px;   
+}
+#img-1{
+    background: url("/assets/rapper-one.jpg") center/cover;
+}
+#img-2{
+    background: url("/assets/rapper-two.jpg") center/cover;
+}
+#img-3{
+    background: url("/assets/rapper-three.jpg") center/cover;
+}
+.top-card{
+    padding: 20px;
+    padding-top:0px;
+}
+.bottom-card{
+    padding:20px;
+}
+
+
+
