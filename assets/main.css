@@ -137,13 +137,13 @@ p{
     height: 300px;   
 }
 #img-1{
-    background-image: url("../assets/rapper-one.jpg") center/cover;
+    background: url("/assets/rapper-one.jpg") center/cover;
 }
 #img-2{
-    background-image: url("../assets/rapper-two.jpg") center/cover;
+    background: url("/assets/rapper-two.jpg") center/cover;
 }
 #img-3{
-    background-image: url("../assets/rapper-three.jpg") center/cover;
+    background-image: url("/assets/rapper-three.jpg") center/cover;
 }
 .top-card{
     padding: 20px;
