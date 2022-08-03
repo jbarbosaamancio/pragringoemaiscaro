@@ -137,13 +137,19 @@ p{
     height: 300px;   
 }
 #img-1{
-    background: url("pragringoemaiscaro/assets/rapper-one.jpg") center/cover;
+    background-image: url("../assets/rapper-one.jpg");
+    background-size: cover;
+    background-position: center center;
 }
 #img-2{
-    background: url("/assets/rapper-two.jpg") center/cover;
+    background-image: url("../assets/rapper-two.jpg");
+    background-size: cover;
+    background-position: center center;
 }
 #img-3{
-    background-image: url("/assets/rapper-three.jpg") center/cover;
+    background-image: url("../assets/rapper-three.jpg");
+    background-size: cover;
+    background-position: center center;
 }
 .top-card{
     padding: 20px;
